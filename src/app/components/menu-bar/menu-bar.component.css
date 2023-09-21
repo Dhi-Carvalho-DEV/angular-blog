@@ -1,10 +1,19 @@
+.container__menu-bar {
+  align-items: center;
+}
+
 .container__menu-bar > ul {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
   font-weight: bold;
 }
 
 .container__menu-bar > ul > li {
   list-style: none;
+}
+
+.container__menu-bar > ul > li > fa-icon {
+  margin-right: 10px;
+  font-size: 20px;
 }
