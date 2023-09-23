@@ -1,0 +1,20 @@
+<div class="container__content">
+  <div class="content__cover">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+    />
+  </div>
+  <div class="content__title">
+    <h1>{{ contentTitle }}</h1>
+    <hr />
+  </div>
+  <div class="content__description">
+    <P>{{ contentDescription }}</P>
+  </div>
+  <div class="back__page">
+    <a [routerLink]="['']">
+      <fa-icon [icon]="faArrowAltCircleLeft"></fa-icon>
+    VOLTAR</a>
+  </div>
+</div>
